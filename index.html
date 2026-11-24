@@ -1,23 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div style="display:flex; align-items:center;
-            gap:25px; padding:20px; flex-wrap:wrap;">
-
-    <img src="profile.jpg" alt="Dr. Devanand"
-         style="width:180px; height:auto;
-                border-radius:10px;">
-
-    <div>
-        <h1>Dr. Devanand</h1>
-        <h3>Assistant Professor</h3>
-
-        <p>
-            Department of Mathematics<br>
-            School of Advanced Sciences and Languages<br>
-            VIT Bhopal University, India
-        </p>
-    </div>
-</div>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +7,7 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; color: #243044; background: #f5f7fa; line-height: 1.7; }
     header { background: #17365d; color: white; padding: 36px 20px; text-align: center; }
+    .profile-photo { width: 180px; max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 12px; }
     header h1 { margin: 0; }
     header p { margin: 5px 0; }
     nav { background: #fff; text-align: center; padding: 14px; border-bottom: 1px solid #ddd; }
@@ -38,6 +21,7 @@
 </head>
 <body>
   <header>
+    <img class="profile-photo" src="profile.jpg" alt="Dr. Devanand">
     <h1>Dr. Devanand</h1>
     <p>Assistant Professor of Mathematics</p>
     <p>VIT Bhopal University, India</p>
@@ -78,11 +62,10 @@
       <p>Department of Mathematics<br>VIT Bhopal University<br>Madhya Pradesh, India</p>
       <!-- Add your professional email address here. -->
     </section>
-    <p style="text-align:center; color:gray; font-style:italic;">
-    This website is currently under development.
-    More information will be added soon.
-</p>
   </main>
-  <footer>&copy; Dr. Devanand</footer>
+  <footer>
+    <p>&copy; Dr. Devanand</p>
+    <p style="font-style: italic; color: gray;">This website is currently under development. More information will be added soon.</p>
+  </footer>
 </body>
 </html>
